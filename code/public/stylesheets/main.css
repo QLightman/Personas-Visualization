@@ -1,27 +1,50 @@
 #top_div {
     position: absolute;
     width: 100%;
-    height: 50%;
+    height: 70%;
 }
 
 #bottom_div {
-    top: 50%;
+    top: 70%;
     position: absolute;
     width: 100%;
-    height: 50%;
+    height: 30%;
 }
 
-#bottom_left_div {
+#top_left_div {
     float: left;
-    width: 40%;
+    width: 50%;
     height: 100%;
-    background-color: "white";
 }
 
-#bottom_right_div {
+#top_right_div {
     float: left;
-    width: 60%;
+    width: 50%;
     height: 100%;
+}
+
+#view0 {
+    height: 60%;
+    width: 100%;
+}
+
+#view1_top {
+    height: 40%;
+    width: 100%;
+}
+
+#view1_select,
+#view1 {
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+#view1,
+#view3 {
+    padding: 10cm, 0, 0, 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .outer-div {
@@ -32,26 +55,6 @@
 .block-div {
     height: 100%;
     border-radius: 7px;
-}
-
-#view1_select {
-    width: 100%;
-    height: 6%;
-}
-
-#view1 {
-    width: 100%;
-    height: 94%;
-}
-
-#view3_select {
-    width: 100%;
-    height: 6%;
-}
-
-#view3 {
-    width: 100%;
-    height: 94%;
 }
 
 .texts {
@@ -119,10 +122,38 @@ path {
 .axis path {
     fill: none;
     stroke: #000;
+    stroke-width: 1px;
     shape-rendering: crispEdges;
 }
 
 .axis text {
     text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
     cursor: move;
+}
+
+.test_people_rect {
+    background-color: #007dc1;
+    border-radius: 3px;
+    border: 1px solid #124d77;
+}
+
+.zoom {
+    cursor: move;
+    fill: none;
+    pointer-events: all;
+}
+
+circle {
+    fill: #00FA9A;
+    fill-opacity: 0.6;
+}
+
+.axis {
+    stroke-width: 0.5px;
+    stroke: #888;
+    font: 10px avenir next, sans-serif;
+}
+
+.axis>path {
+    stroke: #888;
 }
