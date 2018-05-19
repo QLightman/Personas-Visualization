@@ -1,5 +1,6 @@
 # Personas-Visualization
 Visualization program built on [node.js](https://nodejs.org/en/) [express](http://expressjs.com/) for user exploration.
+![Layout](https://github.com/QLightman/Personas-Visualization/blob/master/demo.jpg)
 
 ## Installation
 ```
